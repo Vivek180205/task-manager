@@ -1,0 +1,37 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "A RESTful Task Management API built with Node.js, Express, and MongoDB",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest-api",
+    "task-manager"
+  ],
+  "author": "Vivek (https://github.com/Vivek180205)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "express-validator": "^7.0.1",
+    "mongoose": "^8.23.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^11.1.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "type": "commonjs"
+}
